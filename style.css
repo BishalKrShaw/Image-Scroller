@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100dvw;
+    height: 100dvh;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+main button{
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+main button:active{
+    transform: scale(0.9);
+}
+
+main .image-container{
+    max-width: 350px;
+    max-height: 500px;
+    display: flex;
+    overflow: hidden;
+}
+
+main .image-container img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
