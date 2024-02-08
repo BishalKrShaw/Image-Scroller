@@ -41,8 +41,12 @@ main button:active{
 main .image-container{
     max-width: 350px;
     max-height: 500px;
-    display: flex;
     overflow: hidden;
+}
+
+main .image-container .slider{
+    display: flex;
+    transition: all 0.5s;
 }
 
 main .image-container img{
